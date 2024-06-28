@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'scrolleffect'`, () => {
+  it(`should have as title 'Mindai'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('scrolleffect');
+    expect(app.title).toEqual('Mindai');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('scrolleffect app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Mindai app is running!');
   });
 });

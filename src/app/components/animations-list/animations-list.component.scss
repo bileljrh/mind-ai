@@ -1,0 +1,24 @@
+.number {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 2em;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
+  }
+  
+  .list-group {
+    background-color: transparent !important;
+    color: white !important;
+  }
+
+  .list-group-item {
+    background-color: transparent !important;
+    color: white !important;
+
+ 
+  }
